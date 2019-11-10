@@ -9,7 +9,7 @@ module.exports = {
       include: { association: 'addresses' }
     });
 
-    return res.json(user.addresses);
+    return res.json(user);
   },
 
   async store(req, res) {
